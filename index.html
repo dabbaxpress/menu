@@ -4,11 +4,6 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <meta property="og:image" content="assets/img/share.jpg">
-        <meta property="og:image:width" content="1200">
-        <meta property="og:image:height" content="630">
-
-
         <!--========== BOX ICONS ==========-->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
@@ -37,11 +32,11 @@
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
-                        <li class="nav__item"><a href="https://dabbaxpress.github.io/#about" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link active-link">Home</a></li>
                         <li class="nav__item"><a href="#home" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="https://dabbaxpress.github.io/#services" class="nav__link">Services</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
                         <li class="nav__item"><a href="#menu1" class="nav__link">Menu</a></li>
-                        <li class="nav__item"><a href="https://dabbaxpress.github.io/#app" class="nav__link">Contact us</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact us</a></li>
                         <li class="nav__item">Bhubaneswar</li>
 
                         <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
@@ -64,7 +59,7 @@
                     <div class="about__data">
                         <span class="section-subtitle about__initial">Menu</span>
                         <h2 class="section-title about__initial">We cook the best <br> tasty food</h2>
-                        <p class="about__description">A delivers freshly prepared meals in all over Bhubaneswar, offering convenience and variety for busy individuals or families.</p>
+                        <p class="about__description">"We deliver delicious, non-masala healthy meals in Bhubaneswar, just like the lunches your mom used to pack for school. Our dishes use the best ingredients to ensure you get a nutritious and tasty meal every time. Enjoy the comfort of homemade food, delivered to your door."</p>
                      
                     </div>
 
@@ -73,13 +68,47 @@
             </section>
 
             <!--========== SERVICES ==========-->
+<!--===== APP =======-->
 
+<section class="menu section bd-container" id="menu">
+  <span class="section-subtitle">Special</span>
+  <h2 class="section-title">Price Chart</h2>
+
+  <div class="menu__container bd-grid">
+
+      <div class="menu__content">
+          <img src="assets/img/plate2.png" alt="" class="menu__img">
+          <h3 class="menu__name">Lunch</h3>
+          <span class="menu__detail">Delicious Lunch at door step.</span>
+          <span class="menu__preci">Rs. 1999*</span>
+          <a href="#menu1" class="button menu__button"><i class='bx bxs-food-menu'></i></a>
+      </div>
+      
+      <div class="menu__content">
+          <img src="assets/img/plate3.png" alt="" class="menu__img">
+          <h3 class="menu__name">Dinner</h3>
+          <span class="menu__detail">Delicious Dinner at door step.</span>
+          <span class="menu__preci">*Included</span>
+          <a href="#dinner" class="button menu__button"><i class='bx bxs-food-menu'></i></a>
+      </div>
+
+      <div class="menu__content hide">
+          <img src="assets/img/plate1.png" alt="" class="menu__img">
+          <h3 class="menu__name">On demand</h3>
+          <span class="menu__detail">What you want is what you get.</span>
+          <span class="menu__preci">Rs. 3999*</span>
+          <a href="tel:9337604469" class="button menu__button"><i class='bx bxs-food-menu'></i></a>
+      </div>
+
+      
+  </div>
+</section>
            
            
             <!--========== MENU ==========-->
-            <div class="container" id="menu1">
-              <div class="menu">
-                <h2 class="menu-group-heading">Delicious Lunch</h2>
+            <div class="container" >
+              <div class="menu" id="menu1">
+                <h2 class="menu-group-heading">Delicious <span class="pricing">Lunch</span></h2>
                 <div class="menu-group">
                   <div class="menu-item">
                     
@@ -173,8 +202,8 @@
          <!----------Dinner---------->
                 </div>
               </div>
-              <div class="menu">
-                <h2 class="menu-group-heading">Appetizing Dinner</h2>
+              <div class="menu" id="dinner">
+                <h2 class="menu-group-heading">Appetizing <span class="pricing">Dinner</span></h2>
                 <div class="menu-group">
                   <div class="menu-item">
                     
@@ -274,7 +303,7 @@
               </div>
             </div>
 
-            <!--===== APP =======-->
+            
             
             <!--========== CONTACT US ==========-->
             <section class="contact section bd-container" id="contact">
