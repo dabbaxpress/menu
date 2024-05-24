@@ -309,8 +309,12 @@ img{
 
 .about__description{
   margin-bottom: var(--mb-3);
+  text-align: justify;
 }
 
+.pricing{
+  color: var(--text-color);
+}
 .about__img{
   width: 280px;
   border-radius: .5rem;
@@ -374,7 +378,12 @@ img{
 
 .menu__name, .menu__preci{
   font-weight: var(--font-semi-bold);
-  color: var(--title-color);
+  color: #d92d27;
+}
+
+.menu__preci{
+  text-align: center;
+
 }
 
 .menu__name{
@@ -508,6 +517,7 @@ img{
   color: #d92d27;
   padding-bottom: 1em;
   border-bottom: 2px solid #ccc;
+  text-align: center;
 }
 
 .menu-group {
